@@ -30,16 +30,6 @@
     -webkit-transition: all 0.75s ease-in-out;
     -moz-transition: all 0.75 ease-in-out;
     -o-transition: all 0.75 ease-in-out;
-    animation: load 0.75s ;
-}
-
-@keyframes load{
-    0%{
-        left:0%;
-    }
-    50%{
-        left:20%;
-    }
 }
 
 .left_brain:hover{
