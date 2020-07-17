@@ -87,6 +87,10 @@ footer{
     .left_brain{
         width: 40%;
         margin-left: 8%;
+        transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
     }
     
     .left_brain:focus {
@@ -97,6 +101,10 @@ footer{
     .right_brain{
         width: 40%;
         margin-right: 8%;
+        transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
     }
     
     .right_brain:focus{
