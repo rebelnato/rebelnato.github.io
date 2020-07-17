@@ -111,6 +111,12 @@ footer{
     background-image: url("logo_after.svg");
     box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
     }
+    
+                        /* This part is for creative page */
+    .logo:focus{
+    background-image: url("logo_after.svg");
+}
+
 }
 
                         /* This part if for creative and analytic home pages */
