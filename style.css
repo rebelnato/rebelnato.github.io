@@ -32,7 +32,7 @@
     -o-transition: all 0.75 ease-in-out;
 }
 
-.left_brain:hover{
+.left_brain:hover , .left_brain:active{
     background-image: url("left_brain.svg");
     box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
 }
@@ -54,7 +54,7 @@
     -moz-transition: all 0.75 ease-in-out;
     -o-transition: all 0.75 ease-in-out;
 }
-.right_brain:hover{
+.right_brain:hover , .right_brain:active{
     background-image: url("logo_after.svg");
     box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
 }
