@@ -1,0 +1,106 @@
+*{
+    background-color: #cac7c7;
+    margin: 0;
+    padding: 0;
+}
+
+                            /* This part of the code is for index only */
+
+.top{
+    display: block;
+    height: 10%;
+}
+.container{
+    height: 80%;
+    width: 100%;
+}
+.left_brain{
+    
+    width: 20%;
+    height: 90%;
+    float: left;
+    margin-left: 29%;
+    background-image: url("left_brain_before.svg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    box-shadow: 6px 6px 10px 0 #aaa, -10px -10px 10px 0 rgb(220, 218, 218);
+    border-radius: 2%;
+    transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75 ease-in-out;
+    -o-transition: all 0.75 ease-in-out;
+}
+
+.left_brain:hover{
+    background-image: url("left_brain.svg");
+    box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
+}
+
+.right_brain{
+    
+    width: 20%;
+    height: 90%;
+    margin-right: 29%;
+    float: right;
+    background-image: url("logo_before.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    box-shadow: 10px 10px 12px 0 rgb(220, 218, 218) ,-6px -6px 12px 0 #aaa;
+    border-radius: 2%;
+    transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75 ease-in-out;
+    -o-transition: all 0.75 ease-in-out;
+}
+.right_brain:hover{
+    background-image: url("logo_after.svg");
+    box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    display: block;
+    text-align: center;
+   
+}
+
+.link{
+    font-size: 200%;
+    font-family: 'Cedarville Cursive', cursive;
+    text-decoration: none;
+    color: rgb(124, 119, 119);
+    transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75 ease-in-out;
+    -o-transition: all 0.75 ease-in-out;
+}
+
+.link:hover{
+    color: rgba(54, 111, 158, 1);  
+}
+
+
+@media only screen and (max-width: 700px){
+    .left_brain{
+        width: 40%;
+        margin-left: 8%;
+    }
+
+    .right_brain{
+        width: 40%;
+        margin-right: 8%;
+    }
+}
+
+                        /* This part if for creative and analytic home pages */
+.container{
+    width: 100%;
+    height: 80%;
+}
+
+.logo:hover{
+    background-image: url("logo_after.svg");
+}
