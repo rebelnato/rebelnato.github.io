@@ -88,10 +88,20 @@ footer{
         width: 40%;
         margin-left: 8%;
     }
-
+    
+    .left_brain:hover , .left_brain:active{
+    background-image: url("left_brain.svg");
+    box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
+    }
+    
     .right_brain{
         width: 40%;
         margin-right: 8%;
+    }
+    
+    .right_brain:hover , .right_brain:active{
+    background-image: url("logo_after.svg");
+    box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
     }
 }
 
